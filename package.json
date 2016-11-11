@@ -1,0 +1,22 @@
+{
+  "name": "metalsmith-ng-annotate",
+  "version": "0.1.0",
+  "description": "Metalsmith plugin to add, remove and rebuild AngularJS dependency injection annotations.",
+  "main": "plugin.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fmmfonseca/metalsmith-ng-annotate.git"
+  },
+  "keywords": [
+    "metalsmith",
+    "ng-annotate"
+  ],
+  "author": "Miguel Fonseca",
+  "license": "Apache 2.0",
+  "dependencies": {
+    "async": "^1.5.2",
+    "metalsmith": "^2.2.0",
+    "multimatch": "^2.1.0",
+    "ng-annotate": "^1.2.1"
+  }
+}

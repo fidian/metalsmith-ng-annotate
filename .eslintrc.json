@@ -1,0 +1,39 @@
+{
+  "env": {
+    "browser": false
+  },
+  "extends": "eslint:recommended",
+  "rules": {
+    "brace-style": [
+      "error",
+      "stroustrup"
+    ],
+    "indent": [
+      "error",
+      4
+    ],
+    "key-spacing": [
+      "error",
+      {
+        "afterColon": true,
+        "beforeColon": false
+      }
+    ],
+    "linebreak-style": [
+      "error",
+      "unix"
+    ],
+    "object-curly-spacing": [
+      "error",
+      "always"
+    ],
+    "quotes": [
+      "error",
+      "single"
+    ],
+    "semi": [
+      "error",
+      "always"
+    ]
+  }
+}
